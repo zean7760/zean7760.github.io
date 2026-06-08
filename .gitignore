@@ -1,7 +1,7 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendor
-# Ignore this .DS_Store everywhere, as it may pop up when files are opened on a Mac
+node_modules
+.astro
+dist
+.env
 .DS_Store
+npm-debug.log*
+.vscode

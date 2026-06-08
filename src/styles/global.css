@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-slate-950 text-slate-100 antialiased;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+}
+
+::selection {
+  @apply bg-brand-500 text-slate-950;
+}
+
+img {
+  @apply block max-w-full h-auto;
+}
+
+.section-title {
+  @apply text-3xl sm:text-4xl font-semibold tracking-tight text-white;
+}
+
+.section-subtitle {
+  @apply mt-2 text-slate-400 max-w-2xl;
+}
