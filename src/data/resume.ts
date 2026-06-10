@@ -68,6 +68,16 @@ export const projects: ResumeProject[] = [
     tech: ["Elixir", "Phoenix", "Tailwind", "PostgreSQL"],
     website: "https://app.goat.tax/users/register",
   },
+  {
+    title: "Pineapple Payments",
+    description: [
+      "Managed file transfers, by uploading exported and imported files to S3, ensuring data reliability across environments",
+      "Collaborated directly with non-technical stakeholders to reconcile multiple conflicting sources of truth and translate business requirements into technical solutions.",
+      "Streamlined commission calculation logic and automated monthly exports to business intelligence software, replacing manual spreadsheet processes.",
+      "Built a financial operations web application from the ground up, including authentication, business unit configuration, and data ingestion pipelines",
+    ],
+    tech: ["Elixir", "Phoenix", "Docker", "AWS", "PostgreSQL"],
+  },
 ];
 
 export const skills = [
